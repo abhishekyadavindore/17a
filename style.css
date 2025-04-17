@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.main{
+    background-image: url("./img/pexels-pixabay-36351\ \(2\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    /* t-b */
+    justify-content: center;
+    /* r-l */
+}
+.top{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 50px 10px;
+}
+form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* width: 50vw;
+    height: 50vh; */
+}
+input{
+    width: 30vw;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+}
+a{
+    color: white;
+    background-color: rgb(14, 118, 253);
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+/* .last-test{
+    margin-bottom: 10px;
+} */
+button{
+    background-color: rgb(91, 91, 106);
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
